@@ -1,6 +1,6 @@
 {
   "name": "bunch-o-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:ajfranzoia/bunch-o-scripts.git",
   "author": "Augusto Franzoia <ajfranzoia@gmail.com>",
