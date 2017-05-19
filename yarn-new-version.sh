@@ -31,9 +31,13 @@ git checkout -b $CREATED_TAG_TMP_BRANCH
 # Build and add dist to git
 yarn run build
 git add -f $DIST_DIR
+
+# Create new tag from version and push
 git commit -m $CREATED_TAG
 git tag $CREATED_TAG
 git push origin $CREATED_TAG
+
+# Go back to master and delete tmp branch
 git checkout master
 git branch -D $CREATED_TAG_TMP_BRANCH
 
